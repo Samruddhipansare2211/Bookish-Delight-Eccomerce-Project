@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="books.css">
+        <script>
+         function validate(){
+          
+          var fname=document.getElementById("username").value;
+           if(fname=="")
+
+           {
+            alert("Enter Username");
+            return false;
+           }
+           var mname=document.getElementById("middlename").value;
+           if(mname=="")
+           {
+            alert("Enter Middle Name");
+            return false;
+           }
+           var sname=document.getElementById("surname").value;
+           if(sname=="")
+           {
+            alert("Enter Last Name");
+            return false;
+           }
+
+           var mail=document.getElementById("email").value;
+           if(mail=="")
+           {
+            alert("Enter Email");
+            return false;
+           }
+
+           var mob=document.getElementById("num").value;
+           if(mob=="")
+           {
+            alert("Enter Mobile");
+            return false;
+           }
+           debugger
+           var pin=document.getElementById("code").value;
+           if(pin="")
+           {
+            alert("Enter Pin Code");
+            return false;
+           }
+           var p_add=document.getElementById("add").value;
+           if(p_add="")
+           {
+            alert("Enter Delivery Address");
+            return false;
+           }
+           var o_add=document.getElementById("opt_add").value;
+           if(opt_add)
+           {
+            alert("Enter Optional Address");
+            return false;
+           }
+           var mark=document.getElementById("landmark").value;
+           if(mark="")
+           {
+            alert("Enter Landmark");
+            return false;
+           }
+
+           var check=document.getElementByName("time");
+           var check1=check[0].checked;
+           var check2=check[0].checked;
+           var check3=check[1].checked;
+           if(check1==false & check2==false & check3==false)
+           {
+            alert("Select Prefferd Delivery Time");
+            return false;
+           }
+           var payment=document.getElementById("payment").value;
+           if(payment=="")
+           {
+            alert("Select Payment Option");
+            return false;
+           }
+         }
+         
+        </script>
+    </head>
+
+    <body>
+        <div>
+              <div id="header">
+                <div id="logo"></div>
+                <div id="vibe"><h2>THE BOOKISH DELIGHTS</h2></div>
+              </div>
+              <div id="navigation">
+                <ul><b>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="seller.html">Trending & BestSellers</a></li>
+                    <li><a href="offers.html">Top Offers</a></li>
+                    <li><a href="about.html">Your Cart</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><input type="text" placeholder="What are you Looking for?" style="font-size: 14px; font-style: italic; 
+                    width:300px;"><button style="font-size: 14px;">Search</button></li>
+                    <li><button style="font-size: 14px;" padding:10px 20px;>Login</button>
+                    <button style="font-size: 14px;" padding:10px 20px;>Register</button></li>
+                </ul>
+              </div>
+              <div id="contact_us">Shipping Information</div>
+              <div id="contact_form">
+              <form name="Book_Order" method="post" enctype="multipart/form.data">
+                <label>Name:</label>
+                <input type="text" name="username" class="username" id="username" value="" placeholder="First Name">
+                <input type="text" name="username" class="username" id="middlename" value="" placeholder="Middle Name">
+                <input type="text" name="username" class="username" id="surname" value="" placeholder="Last Name">
+                <br>
+                <br>
+
+                <label>Email:</label>
+                <input type="text" name="email" class="email" id="email" value="" placeholder="Enter Email">
+                <br>
+                <br>
+
+                <label>Contact Number:</label>
+                <input type="text" name="num" class="num" id="num" value="" placeholder="Enter Contact Number">
+                <br>
+                <br>
+
+                <label>Pin Code:</label>
+                <input type="text" name="code" class="code" id="code" value="" placeholder="Enter Pin Code">
+                <br>
+                <br>
+                
+                <label>Delivery Address:</label>
+                <textarea name="add" class="add" id="add" value="" rows="3" cols="26" placeholder="Enter Delivery Address"></textarea>
+                <br>
+                <br>
+                
+                <label>Landmark:</label> 
+                <input type="text" name="landmark" id="landmark" class="landmark" value="" placeholder="Nearer Landmark">
+                <br>
+                <br>
+
+                <label>Optional Address:</label>
+                <textarea name="opt_add" class="opt_add" id="opt_add" rows="3" cols="25" value="" placeholder="Enter Optional Address"></textarea>
+                <br>
+                <br>
+
+                <label>Preferred Delivery Time:</label>
+                <input type="checkbox" class="time" id="time" name="time" value="9am to 12pm"> 9am to 12pm
+                <input type="checkbox" class="time" id="time" name="time" value="12pm to 6pm"> 12pm to 6pm
+                <input type="checkbox" class="time" id="time" name="time" value="6pm to 10pm"> 6pm to 10pm
+                <br>
+                <br>
+                 
+                <label>Payment Options:</label>
+                <select id="payment" name="payment" class="payment">
+                  <option value="COD">Cash on Delivery</option>
+                  <option value="UPI">UPI</option>
+                  <option value="Debit/Credit">Debit/Credit Cards</option>
+                  <option value="Net Banking">Net Banking</option>
+                </select>
+                <br>
+                <br>
+
+                <input type="submit" name="submit" class="submit" id="sumbit" value="Place Order" onclick="javascript:return validate()">
+              </form>
+            </div>
+
+            <div id="footer">&copy;2024The_Bookish_Delights. All rights are reserved.</div>
+        </div>
+    </body></html>

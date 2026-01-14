@@ -1,0 +1,1230 @@
+body{
+    background-image:url("images/bg2.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+}
+#header{
+    height:57px;
+    width:100%;
+    background-image:url("images/bgstore.png");
+}
+#vibe{
+    height:40px;
+    width:300px;
+    margin-left:150px;
+    margin-bottom:25px;
+    position: absolute;
+    color: rgb(245, 32, 96);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#logo{
+    height:56px;
+    width:135px;
+    background-image: url("images/books.webp");
+    background-size:cover;
+    float:left;
+}
+button{
+    background-color:rgb(115, 46, 179);
+    color:cornsilk
+}
+#navigation{
+    padding-top:1px;
+    padding-bottom:22px;
+    height:20px;
+    width:100%;
+    background-color:rgb(252, 225, 77);
+
+}
+ul{
+    list-style-type:none;
+}
+ul li a{
+    text-decoration:none;
+    color:rgb(95, 30, 155);
+}
+ul li{
+    float:left;
+    font-size:large;
+    margin-left:32px;
+}
+ul li a:hover{
+    color:red;
+}
+#store{
+    height:220px;
+    width:100%;
+    background-color:rgb(233, 255, 220);
+    background-size:cover;
+}
+#explore{
+    height:33px;
+    width:140px;
+    margin-left:290px;
+    margin-top:25px;
+    background-color:#e24775;
+    color: antiquewhite;
+   font-size:x-large;
+   font-style: italic;
+}
+#h1{
+    height:200px;
+    width:750px;
+    float:right;
+    margin-right:200px;
+    text-align: center;
+}
+#picture{
+    height:220px;
+    width:230px;
+    background-image:url("images/girlie.avif");
+    background-size:cover;
+    float:left;
+}
+h1{
+text-align: center;
+color:rgb(56, 134, 236);
+font-size:45px;
+text-transform: uppercase;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 300;
+}
+#h1 p{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    color:rgb(4, 45, 75);
+    line-height:0px;
+    font-size:xx-large;
+    font-size:20px;
+ 
+}
+#books{
+    height:600px;
+    width:100%;
+}
+#offers{
+    height:360px;
+    width:100%;
+    background-color:rgb(237, 250, 230);
+    padding-top:11px;
+}
+#delivery{
+    height:124px;
+    width:100%;
+    background-image:url("images/delivery.jpg");
+    background-size:cover;
+    border:1px solid rgb(56, 85, 182);
+}
+#explore_pic{
+    height:123px;
+    width:100%;
+    background-image:url("offers/exlpore.jpg");
+    background-size:cover;
+}
+#spotlight{
+    height:310px;
+    width:100%;
+}
+
+#footer{
+    height:7px;
+    width:100%;
+    color:rgb(4, 43, 114);
+    font-style:inherit;
+    text-align: center;
+    background-image:url("images/bgstore.png");
+    color: rgb(245, 32, 96);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:14px;
+    position:absolute;
+}
+
+#aa1{
+    height:315px;
+    width:100%;
+    
+}
+#bb1{
+    height:280px;
+    width:100%;
+}
+
+.a{
+    height:215px;
+    width:150px;
+    border:2px solid goldenrod;
+    border-radius:22px;
+    float:left;
+    margin-left:59px;
+}
+.b{
+    height:215px;
+    width:150px;
+    border:2px solid goldenrod;
+    border-radius:22px;
+    float:left;
+    margin-left:60px;
+}
+
+#a1{
+    background-image:url("images/robin.jpg");
+    background-size:cover;
+}
+#a2{
+    background-image:url("images/autobiography2.jpg");
+    background-size:cover;
+}
+#a3{
+    background-image:url("images/dhoni.webp");
+    background-size:cover;
+}
+#a4{
+    background-image:url("images/novel2.jpg");
+    background-size:cover;
+}
+#a6{
+    background-image:url("images/holy3.jpg");
+    background-size:cover;
+}
+#b2{
+    background-image:url("images/indian_society.jpg");
+    background-size:cover;
+}
+#a5{
+    background-image:url("images/poetry4.jpg");
+    background-size:cover;
+}
+#b3{
+    background-image:url("images/neet.jpg");
+    background-size:cover;
+}
+#b1{
+    background-image:url("images/jayshetty1.jpg");
+    background-size:cover;
+}
+#b4{
+    background-image:url("images/children7.jpg");
+    background-size:cover;
+}
+#b5{
+    background-image:url("images/international_relations.jpg");
+    background-size:cover;
+}
+#b6{
+    background-image:url("images/love.jpg");
+    background-size:cover;
+}
+
+#oo1{
+    height:300px;
+    width:100%;
+    position:absolute;
+ 
+}
+.o{
+    height:250px;
+    width:328px;
+    border-radius: 2px;
+    float:left;
+    margin-left:6px;
+}
+#o1{
+    background-image:url("images/Bundle-offers.jpg");
+    background-size:cover;
+}
+#o2{
+    background-image:url("images/Boxsets.jpg");
+    background-size:cover;
+}
+#o4{
+    background-image:url("images/bigsale.jpg");
+    background-size:cover;
+}
+#o3{
+    background-image:url("images/discount.jpg");
+    background-size:cover;
+}
+
+#ss1{
+    height:275px;
+    width:100%;
+    position: absolute;
+    padding-top:5px;
+}
+.s{
+    height: 250px;
+    width:438px;
+    float:left;
+    margin-left:5px;
+}
+#s1{
+    background-image:url("images/new1.jpg");
+    background-size:cover;
+}
+#s3{
+    background-image:url("images/new2.jpg");
+    background-size:cover;
+    width:446px;
+}
+#s2{
+    background-image:url("images/new3.jpg");
+    background-size:cover;
+    width:430px;
+}
+#write{
+    height:30px;
+    width:190px;
+    margin-left:45%;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(75, 18, 128);
+}
+.n{
+    height:25px;
+    width:100px;
+    float:left;
+    margin-top:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 4, 58);
+}
+#n1{
+    height:25px;
+    width:145px;
+    margin-left:65px;
+}
+#n2{
+    margin-left:90px;
+}
+#n3{
+    margin-left:127px;
+}
+#n4{
+    margin-left:118px;
+}
+#n5{
+    margin-left:118px;
+}
+#n6{
+    margin-left:99px;
+}
+.na{
+    height:25px;
+    width:100px;
+    float:left;
+    margin-top:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(32, 4, 58);
+}
+#na1{
+    margin-left:80px;
+}
+#na2{
+    margin-left:115px;
+}
+#na3{
+    width:140px;
+    margin-left:95px;
+}
+#na4{
+    margin-left:79px;
+    width:140px;
+}
+#na5{
+    margin-left:73px;
+    width:140px;
+}
+#na6{
+    margin-left:101px;
+}
+
+#off{
+    height:30px;
+    width:190px;
+    margin-left:45%;
+    margin-top:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(75, 18, 128);
+}
+.oa{
+    height:25px;
+    width:165px;
+    float:left;
+    margin-top:10px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 4, 58);
+}
+#oa1{
+    margin-left:80px;
+}
+#oa2{
+    margin-left:170px;
+}
+#oa3{
+    margin-left:170px;
+}
+#oa4{
+    margin-left:180px;
+}
+#spot{
+    height:25px;
+    width:180px;
+    text-align:center;
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(75, 18, 128);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:550px;
+    margin-top:32px;
+}
+
+#seller1{
+    height:305px;
+    width:100%;
+}
+#sec1{
+    height:280px;
+    width:620px;
+    margin-top:2px;
+    margin-left:28px;
+    float:left;
+}
+#sec2{
+    height:280px;
+    width:620px;
+    
+    margin-top:2px;
+   float:right;
+   margin-right:28px;
+}
+#se{
+    height:257px;
+    width:172px;
+    
+    margin-top:5px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/robin.jpg");
+    background-size:cover;
+}
+#sec{
+    height:257px;
+    width:410px;
+   
+    margin-top:1px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+    
+}
+#see{
+    height:257px;
+    width:172px;
+    
+    margin-top:5px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/Alchemist.jpg");
+    background-size:cover;
+}
+#seec{
+    height:257px;
+    width:410px;
+    
+    margin-top:1px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+}
+
+h2{
+    text-align:left;
+}
+#rs{
+    line-height: 2px;
+}
+
+
+
+
+#seller2{
+    height:305px;
+    width:100%;
+}
+#sec3{
+    height:280px;
+    width:620px;
+    margin-top:1px;
+    margin-left:28px;
+    float:left;
+}
+#sec4{
+    height:280px;
+    width:620px;
+    margin-top:1px;
+   float:right;
+   margin-right:28px;
+}
+#sel{
+    height:250px;
+    width:172px;
+    margin-top:7px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/autobiography2.jpg");
+    background-size:cover;
+}
+#secl{
+    height:257px;
+    width:410px;
+    margin-top:1px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+    
+}
+#seel{
+    height:250px;
+    width:172px;
+    margin-top:7px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/dhoni.webp");
+    background-size:cover;
+}
+#seecl{
+    height:257px;
+    width:410px;
+    margin-top:1px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+}
+
+
+
+
+#seller3{
+    height:300px;
+    width:100%;
+}
+#sec5{
+    height:280px;
+    width:620px;
+    margin-top:1px;
+    margin-left:28px;
+    float:left;
+}
+#sec6{
+    height:280px;
+    width:620px;
+    margin-top:1px;
+   float:right;
+   margin-right:28px;
+}
+#section51{
+    height:250px;
+    width:172px;
+    margin-top:7px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/novel6.jpg");
+    background-size:cover;
+}
+#section52{
+    height:257px;
+    width:410px;
+    margin-top:1px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+    
+}
+#section61{
+    height:250px;
+    width:172px;
+    margin-top:7px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/novel4.jpeg");
+    background-size:cover;
+}
+#section62{
+    height:257px;
+    width:410px;
+    margin-top:1px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+}
+
+
+
+
+
+#seller4{
+    height:295px;
+    width:100%;
+}
+#sec7{
+    height:280px;
+    width:620px;
+    margin-top:0px;
+    margin-left:28px;
+    float:left;
+}
+#sec8{
+    height:280px;
+    width:620px;
+    margin-top:0px;
+   float:right;
+   margin-right:28px;
+}
+#section71{
+    height:245px;
+    width:172px;
+    margin-top:1px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/poetry3.webp");
+    background-size:cover;
+}
+#section72{
+    height:257px;
+    width:410px;
+    margin-top:0px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+    
+}
+#section81{
+    height:245px;
+    width:172px;
+    margin-top:9px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/poetry2.jpg");
+    background-size:cover;
+}
+#section82{
+    height:257px;
+    width:410px;
+    margin-top:0px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+}
+
+
+
+
+#seller5{
+    height:305px;
+    width:100%;
+    padding-top:5px;
+}
+#sec9{
+    height:280px;
+    width:620px;
+    margin-top:10px;
+    margin-left:28px;
+    float:left;
+}
+#sec10{
+    height:280px;
+    width:620px;
+
+    margin-top:10px;
+   float:right;
+   margin-right:28px;
+}
+#section91{
+    height:243px;
+    width:158px;
+    margin-top:11px;
+    margin-left:23px;
+    float:left;
+    background-image:url("images/jayshetty.jpg");
+    background-size:cover;
+}
+#section92{
+    height:257px;
+    width:413px;
+    margin-top:5px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+    
+}
+#section101{
+    height:247px;
+    width:157px;
+    margin-top:2px;
+    margin-left:25px;
+    float:left;
+    background-image:url("images/love.jpg");
+    background-size:cover;
+}
+#section102{
+    height:257px;
+    width:410px;
+    margin-top:5px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+}
+
+
+
+
+#seller6{
+    height:270px;
+    width:100%;
+}
+#sec11{
+    height:280px;
+    width:620px;
+    margin-top:5px;
+    margin-left:28px;
+    float:left;
+}
+#sec12{
+    height:280px;
+    width:620px;
+    margin-top:5px;
+   float:right;
+   margin-right:28px;
+}
+#section111{
+    height:220px;
+    width:172px;
+    margin-top:12px;
+    margin-left:7px;
+    float:left;
+    background-image:url("images/children4.jpg");
+    background-size:cover;
+}
+#section112{
+    height:257px;
+    width:410px;
+    margin-top:7px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+    
+}
+#section121{
+    height:210px;
+    width:172px;
+    margin-top:7px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/children3.jpg");
+    background-size:cover;
+}
+#section122{
+    height:257px;
+    width:410px;
+    margin-top:0px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+}
+
+
+
+
+#seller7{
+    height:290px;
+    width:100%;
+}
+#sec13{
+    height:280px;
+    width:620px;
+    margin-left:28px;
+    float:left;
+}
+#sec14{
+    height:280px;
+    width:620px;
+   float:right;
+   margin-right:28px;
+}
+#section131{
+    height:225px;
+    width:172px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/polity.jpg");
+    background-size:cover;
+}
+#section132{
+    height:257px;
+    width:410px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+    
+}
+#section141{
+    height:225px;
+    width:172px;
+    margin-left:10px;
+    float:left;
+    background-image:url("images/international_relations.jpg");
+    background-size:cover;
+}
+#section142{
+    height:257px;
+    width:410px;
+    float:right;
+    margin-right:14px;
+    text-align:justify;
+}
+
+.title{
+    height:25px;
+    width:280px;
+    text-align:center;
+    font-size: large;
+    font-style: italic;
+    color: black;
+    margin-left:550px;
+    margin-top:15px;
+    text-decoration: underline;
+}
+
+#deals{
+    height:305px;
+    width:100%;
+    
+    padding-top:11px;
+}
+#dd1{
+    height:270px;
+    width:100%;
+   
+    position:absolute;
+ 
+}
+.d{
+    height:250px;
+    width:315px;
+    border-radius: 2px;
+    float:left;
+    margin-left:17px;
+    border-radius: 10px;
+    margin-top:12px;
+}
+#d1{
+    
+    background-image:url("offers/deal1.jpg");
+    background-size:cover;
+}
+#d2{
+   
+    background-image:url("offers/deal2.jpg");
+    background-size:cover;
+}
+#d4{
+    
+    background-image:url("offers/deal4.jpg");
+    background-size:cover;
+}
+#d3{
+    
+    background-image:url("offers/deal3.jpg");
+    background-size:cover;
+}
+#deal{
+    margin-top:10px;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+#off_books{
+    height:450px;
+    width:100%;
+    
+}
+.ob{
+    height:450px;
+    width:315px;
+    border-radius: 2px;
+   
+   float:left;
+   margin-left:19px;
+}
+
+
+#off_sec1{
+    height:420px;
+    width:155px;
+    float:left;
+    
+}
+#off_sec2{
+    height:420px;
+    width:155px;
+    float:right;
+    
+}
+.os{
+    height:200px;
+    width:135px;
+
+    margin-left:12px;
+    margin-top:8px;
+}
+.osec{
+    height:170px;
+    width:135px;
+ 
+    margin-top:22px;
+}
+
+
+#off_sec3{
+    height:420px;
+    width:155px;
+    float:left;
+    
+}
+#off_sec4{
+    height:420px;
+    width:155px;
+
+    float:right;
+    
+}
+
+
+#off_sec5{
+    height:420px;
+    width:155px;
+    float:left;
+    
+}
+#off_sec6{
+    height:420px;
+    width:155px;
+
+    float:right;
+    
+}
+
+
+#off_sec7{
+    height:420px;
+    width:155px;
+ 
+    float:left;
+    
+}
+#off_sec8{
+    height:420px;
+    width:155px;
+
+    float:right;
+    
+}
+
+#os1{
+    background-image: url("offers/a1..jpg");
+    background-size:cover;
+}
+#os2{
+    background-image: url("offers/a2.jpg");
+    background-size:cover;
+}
+#os4{
+    margin-top:30px;
+}
+
+
+#os31{
+    background-image: url("offers/a3.jpg");
+    background-size:cover;
+}
+#os32{
+    background-image: url("offers/a4.jpg");
+    background-size:cover;
+}
+
+
+#os51{
+    background-image: url("offers/a5.jpg");
+    background-size:cover;
+}
+#os52{
+    background-image: url("offers/a6.jpg");
+    background-size:cover;
+}
+
+
+
+#os71{
+    background-image: url("offers/a7.jpg");
+    background-size:cover;
+}
+#os72{
+    background-image: url("offers/a8.jpg");
+    background-size:cover;
+}
+
+
+h3{
+    text-align: center;
+    color:brown;
+}
+
+#deal{
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#os42{
+    margin-top:54px;
+}
+
+#os62{
+    margin-top:18px;
+}
+
+#os82{
+    margin-top:34px;
+}
+
+#os41{
+    margin-top:24px;
+}
+
+#os61{
+    margin-top:45px;
+}
+
+#os81{
+    margin-top:42px;
+}
+
+#os3{
+    margin-top:42px;
+}
+
+#os4{
+    margin-top:34px;
+}
+
+#os2{
+    margin-top:20px;
+}
+#os32{
+    margin-top:20px;
+}
+#os52{
+    margin-top:20px;
+}
+#os72{
+    margin-top:20px;
+}
+
+
+#contact_us{
+    height:20px;
+    width:180px;
+    margin-top:22px;
+    margin-bottom:25px;
+    margin-left:190px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
+#contact_form{
+    
+    height:470px;
+    width:600px;
+    margin-left:25px;
+    margin-top:10px;
+
+
+
+}
+#cart{
+    height:400px;
+    width:100%;
+  
+}
+#product_details{
+    height:350px;
+    width:230px;
+    float:left;
+    margin-left:60px;
+    margin-top:10px;
+}
+#product_des{
+    height:350px;
+    width:950px;
+   
+    float:right;
+    margin-right:90px;
+    margin-top:10px;
+    text-align:justify;
+
+}
+#product_img{
+    height:200px;
+    width:150px;
+   
+    margin-top:7px;
+    margin-left:44px;
+    background-image:url("offers/a5.jpg");
+    background-size:cover;
+}
+#p_name1{
+    height:25px;
+    width:210px;
+    
+    margin-left:18px;
+    margin-top:25px;
+    font-style: italic;
+    font-size: large;
+}
+#p_name2{
+    height:30px;
+    width:220px;
+    margin-left:20px;
+    margin-top:10px;
+    font-size: larger;
+    color:rgb(253, 19, 19);
+}
+#p_name3{
+    height:30px;
+    width:220px;
+   
+    margin-left:20px;
+    margin-top:3px;
+    font-style: italic;
+    font-size: large;
+    text-decoration: underline;
+}
+#p_name4{
+    height:15px;
+    width:220px;
+    
+    margin-left:20px;
+    margin-top:7px;
+    font-style: italic;
+    font-size: large;
+    text-decoration: underline;
+}
+#product_name{
+    height:10px;
+    width:180px;
+    margin-left:54px;  
+}
+#add_cart{
+    height:30px;
+    width:150px;
+   
+    margin-left:570px;
+    margin-top:12px;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+
+#part2{
+    height:360px;
+    width:100%;
+}
+#product_details2{
+    height:350px;
+    width:230px;
+
+    float:left;
+    margin-left:60px;
+    margin-top:10px;
+}
+#p_name12{
+    height:22px;
+    width:140px;
+    margin-left:54px;
+    margin-top:23px;
+    font-style: italic;
+    font-size: large;
+  
+  
+}
+#product_img2{
+    height:200px;
+    width:150px;
+    
+    margin-top:7px;
+    margin-left:44px;
+    background-image:url("offers/a2.jpg");
+    background-size:cover;
+}
+#product_des2{
+    height:350px;
+    width:950px;
+  
+    float:right;
+    margin-right:90px;
+    margin-top:10px;
+    text-align:justify;
+
+}
+#p_name22{
+    height:30px;
+    width:220px;
+    margin-left:20px;
+    margin-top:10px;
+    color:rgb(253, 19, 19);
+    font-size: larger;
+}
+#p_name32{
+    height:30px;
+    width:220px;
+   
+    margin-left:20px;
+    margin-top:3px;
+    font-style: italic;
+    font-size: large;
+    text-decoration: underline;
+}
+#p_name42{
+    height:15px;
+    width:220px;
+    
+    margin-left:20px;
+    margin-top:7px;
+    font-style: italic;
+    font-size: large;
+    text-decoration: underline;
+}
+#product_name2{
+    height:10px;
+    width:180px;
+    margin-left:54px;  
+}
+ 
